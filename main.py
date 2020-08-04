@@ -29,4 +29,6 @@ if answer.upper() == " Y":
   if wait.upper() == " Y":
     print("Your Marvel Hero is " + Heroes[choice.upper()])
   else:
-    print("Okay")
+    print("Okay, suit yourself.")
+else:
+  print("Oh that's too bad. Come back again later.")    
